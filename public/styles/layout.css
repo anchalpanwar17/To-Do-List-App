@@ -1,0 +1,62 @@
+*{
+  font-family: 'Anton', sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+  background: linear-gradient(135deg, #153677, #4e085f);
+}
+
+.container{
+  background:#fff;
+  width: 100%;
+  max-width: 540px;
+  margin: 10px auto 20px;
+  padding: 40px 30px 40px 30px;
+  border-radius: 10px;
+}
+
+.semi{
+  /* font-family: 'Anton', sans-serif; */
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 18px;
+}
+
+input.semi{
+  height: 30px;
+  width: 80%;
+  border: none;
+  background: #edeef0;
+}
+
+div.semi{
+  margin: 20px;
+  /* font-size: 20px; */
+}
+
+button{
+  width: 15%;
+  background-color: black;
+  color: white;
+}
+/* .navbar-nav a{
+  border: 3px solid green;
+  width: 300px;
+} */
+
+/* .collapse {
+  justify-content: center;
+}
+.navbar-nav{
+  justify-content: center;
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
+
+form{
+  text-align: center;
+}
+ */

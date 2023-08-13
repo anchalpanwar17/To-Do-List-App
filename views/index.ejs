@@ -1,0 +1,19 @@
+ <%- include("partials/header.ejs") %> 
+    
+    <h2>Today To-Do List</h2>
+    <form action="/list" method="POST" id="form1">
+        <input type="text" name="newItem" placeholder="New Item" autocomplete="off" class="semi">
+        <button type="submit">ADD</button>
+    </form>
+
+    <% if(locals.tasks){ %>
+    <div class="semi">
+        <% for(let i=0 ; i<tasks.length ; i++) {%>
+            <form action="/delete" method="post">
+            <input type="checkbox"><%= tasks[i].name %></input><br>
+            </form>
+        <% } %>
+    </div>
+    <% } %>
+
+<%- include("partials/footer.ejs") %> 
